@@ -1,0 +1,54 @@
+.homepage {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.homepage .header {
+  background: #8c8f8c;
+  margin-right: none;
+  padding-left: 500px;
+}
+
+.homepage .header a {
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.homepage .middle1 a {
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.homepage .middle2 h1 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.homepage .container {
+  width: available;
+  height: available;
+}
+
+.homepage .container .leftpane {
+  width: 30%;
+}
+
+.homepage .container .middlepane {
+  width: 30%;
+}
+
+.homepage .container .rightpane {
+  width: 30%;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

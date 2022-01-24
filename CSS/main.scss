@@ -1,0 +1,47 @@
+.homepage {
+  margin-left: 200px;
+  margin-right: 200px;
+  .header {
+    background: rgb(140, 143, 140);
+    margin-right: none;
+    padding-left: 500px;
+    a {
+      text-decoration: none;
+      margin-right: 1em;
+    }
+  }
+  .middle1 {
+    a {
+      text-decoration: none;
+      margin-right: 1em;
+    }
+  }
+  .middle2 {
+    h1 {
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 0.1em;
+    }
+  }
+  .container {
+    width: available;
+    height: available;
+    .leftpane {
+      width: 30%;
+    }
+    .middlepane {
+      width: 30%;
+    }
+    .rightpane {
+      width: 30%;
+    }
+  }
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+a.active {
+  background-color: #04aa6d;
+  color: white;
+}
