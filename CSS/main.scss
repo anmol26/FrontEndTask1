@@ -35,6 +35,19 @@
     }
   }
 }
+.service-container {
+  .service-leftpane {
+    width: 30%;
+  }
+  .service-rightpane {
+    width: 30%;
+    h1 {
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 0.1em;
+    }
+  }
+}
 a:hover {
   background-color: #ddd;
   color: black;
