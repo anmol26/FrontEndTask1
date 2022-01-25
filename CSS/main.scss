@@ -3,20 +3,28 @@
   margin-right: 200px;
   .header {
     background: rgb(140, 143, 140);
-    margin-right: none;
-    padding-left: 500px;
+    float: right;
+    margin-bottom: 2%;
     a {
       text-decoration: none;
       margin-right: 1em;
     }
   }
   .middle1 {
+    padding-top: 5%;
+    margin-bottom: 10%;
+    img {
+      margin-right: 2em;
+      float: left;
+      width: 20%;
+    }
     a {
       text-decoration: none;
       margin-right: 1em;
     }
   }
   .middle2 {
+    margin-top: 2%;
     h1 {
       text-transform: uppercase;
       color: white;
@@ -35,9 +43,18 @@
     }
   }
 }
+.service-middle1 {
+  a {
+    text-decoration: none;
+    margin-right: 1em;
+  }
+}
 .service-container {
   .service-leftpane {
     width: 30%;
+    ul {
+      list-style-type: none;
+    }
   }
   .service-rightpane {
     width: 30%;

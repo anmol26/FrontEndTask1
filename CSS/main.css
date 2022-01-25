@@ -5,8 +5,8 @@
 
 .homepage .header {
   background: #8c8f8c;
-  margin-right: none;
-  padding-left: 500px;
+  float: right;
+  margin-bottom: 2%;
 }
 
 .homepage .header a {
@@ -14,20 +14,30 @@
   margin-right: 1em;
 }
 
+.homepage .middle1 {
+  padding-top: 5%;
+  margin-bottom: 10%;
+}
+
+.homepage .middle1 img {
+  margin-right: 2em;
+  float: left;
+  width: 20%;
+}
+
 .homepage .middle1 a {
   text-decoration: none;
   margin-right: 1em;
+}
+
+.homepage .middle2 {
+  margin-top: 2%;
 }
 
 .homepage .middle2 h1 {
   text-transform: uppercase;
   color: white;
   letter-spacing: 0.1em;
-}
-
-.homepage .container {
-  width: available;
-  height: available;
 }
 
 .homepage .container .leftpane {
@@ -40,6 +50,29 @@
 
 .homepage .container .rightpane {
   width: 30%;
+}
+
+.service-middle1 a {
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.service-container .service-leftpane {
+  width: 30%;
+}
+
+.service-container .service-leftpane ul {
+  list-style-type: none;
+}
+
+.service-container .service-rightpane {
+  width: 30%;
+}
+
+.service-container .service-rightpane h1 {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
 }
 
 a:hover {
