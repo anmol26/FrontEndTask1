@@ -1,8 +1,11 @@
 .homepage {
+  //background: blue; //
+  //opacity: 0.3; //
   margin-left: 200px;
   margin-right: 200px;
   .header {
     background: rgb(140, 143, 140);
+    opacity: 0.5;
     float: right;
     margin-bottom: 2%;
     a {
@@ -12,7 +15,7 @@
   }
   .middle1 {
     padding-top: 5%;
-    margin-bottom: 10%;
+    display: inline-block; //
     img {
       margin-right: 2em;
       float: left;
@@ -34,19 +37,22 @@
   .container {
     .leftpane {
       width: 30%;
+      //display: inline;
     }
     .middlepane {
       width: 30%;
+      //display: inline;
     }
     .rightpane {
       width: 30%;
+      //display: inline;
     }
   }
 }
 .service-middle1 {
   a {
     text-decoration: none;
-    margin-right: 1em;
+    //margin-right: 1em;
   }
 }
 .service-container {

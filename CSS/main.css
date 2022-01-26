@@ -5,6 +5,7 @@
 
 .homepage .header {
   background: #8c8f8c;
+  opacity: 0.5;
   float: right;
   margin-bottom: 2%;
 }
@@ -16,7 +17,7 @@
 
 .homepage .middle1 {
   padding-top: 5%;
-  margin-bottom: 10%;
+  display: inline-block;
 }
 
 .homepage .middle1 img {
@@ -54,7 +55,6 @@
 
 .service-middle1 a {
   text-decoration: none;
-  margin-right: 1em;
 }
 
 .service-container .service-leftpane {
