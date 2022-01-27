@@ -2,12 +2,12 @@
   font-family: Arial, sans-serif;
   color: white;
   border: 1px solid transparent;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 220px;
+  margin-right: 220px;
 }
 
 .homepage .header {
-  background: #8c8f8c;
+  background-color: #042242;
   opacity: 0.5;
   float: right;
   margin-bottom: 2%;
@@ -21,7 +21,7 @@
 }
 
 .homepage .middle1 {
-  background-color: #063970;
+  background-color: #042242;
   opacity: 0.7;
   border: 1px solid transparent;
   padding: none;
@@ -30,7 +30,7 @@
 
 .homepage .middle1 img {
   margin-top: -1.2em;
-  margin-bottom: -2.5em;
+  margin-bottom: -2em;
   margin-left: 2em;
   margin-right: 5em;
   float: left;
@@ -46,9 +46,8 @@
 }
 
 .homepage .middle2 {
-  background-color: #063970;
-  opacity: 0.2;
-  border: 1px solid black;
+  background: rgba(198, 205, 218, 0.1);
+  border: 1px solid transparent;
 }
 
 .homepage .middle2 h1 {
@@ -62,6 +61,7 @@
 .homepage .container {
   border: 1px solid transparent;
   margin-bottom: 2em;
+  font-size: small;
 }
 
 .homepage .container img {
@@ -69,7 +69,7 @@
 }
 
 .homepage .container .column {
-  background-color: #063970;
+  background-color: #052d57;
   opacity: 0.7;
   float: left;
   width: 31%;
@@ -96,12 +96,18 @@
 }
 
 .homepage .footer {
-  margin-top: 2em;
-  padding-left: 1em;
+  margin-top: 32em;
+  background-color: #063970;
+  opacity: 0.8;
+  border: 1px solid transparent;
+  font-size: small;
+}
+
+.homepage .footer p {
+  text-align: center;
 }
 
 .homepage .footer a {
-  margin-right: 2em;
   color: white;
 }
 
@@ -109,12 +115,30 @@
   text-decoration: none;
 }
 
-.service-container .service-leftpane {
+.service-container .column {
+  margin-bottom: 2em;
+  background-color: #063970;
+  opacity: 0.7;
+  float: left;
   width: 30%;
+  padding: 0 10px;
+}
+
+.service-container .service-leftpane {
+  margin-top: 2em;
+  width: 30%;
+}
+
+.service-container .service-leftpane img {
+  width: 100%;
 }
 
 .service-container .service-leftpane ul {
   list-style-type: none;
+}
+
+.service-container .service-leftpane a {
+  color: white;
 }
 
 .service-container .service-rightpane {

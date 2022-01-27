@@ -4,10 +4,10 @@
   border: 1px solid transparent;
   //background: blue; //
   //opacity: 0.3; //
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 220px;
+  margin-right: 220px;
   .header {
-    background: rgb(140, 143, 140);
+    background-color: rgb(4, 34, 66);
     opacity: 0.5;
     float: right;
     margin-bottom: 2%;
@@ -19,7 +19,7 @@
     }
   }
   .middle1 {
-    background-color: rgb(6, 57, 112);
+    background-color: rgb(4, 34, 66);
     opacity: 0.7;
     border: 1px solid transparent;
     //padding-top: 5%;
@@ -27,7 +27,7 @@
     display: inline-block; //
     img {
       margin-top: -1.2em;
-      margin-bottom: -2.5em;
+      margin-bottom: -2em;
       //padding-top: -1;
       margin-left: 2em;
       margin-right: 5em;
@@ -43,9 +43,8 @@
     }
   }
   .middle2 {
-    background-color: rgb(6, 57, 112);
-    opacity: 0.2;
-    border: 1px solid black;
+    background: rgba(198, 205, 218, 0.1);
+    border: 1px solid transparent;
     h1 {
       font-size: 2em;
       padding-top: 0.2em;
@@ -57,11 +56,13 @@
   .container {
     border: 1px solid transparent; //
     margin-bottom: 2em;
+    font-size: small;
     img {
       width: 100%;
     }
     .column {
-      background-color: rgb(6, 57, 112);
+      //margin-bottom: 2em;
+      background-color: rgb(5, 45, 87);
       opacity: 0.7;
       float: left;
       width: 31%;
@@ -87,11 +88,15 @@
     }
   }
   .footer {
-    margin-top: 2em;
-    padding-left: 1em;
-
+    margin-top: 32em;
+    background-color: rgb(6, 57, 112);
+    opacity: 0.8;
+    border: 1px solid transparent;
+    font-size: small;
+    p {
+      text-align: center;
+    }
     a {
-      margin-right: 2em;
       color: white;
     }
   }
@@ -103,10 +108,25 @@
   }
 }
 .service-container {
-  .service-leftpane {
+  .column {
+    margin-bottom: 2em;
+    background-color: rgb(6, 57, 112);
+    opacity: 0.7;
+    float: left;
     width: 30%;
+    padding: 0 10px;
+  }
+  .service-leftpane {
+    margin-top: 2em;
+    width: 30%;
+    img {
+      width: 100%;
+    }
     ul {
       list-style-type: none;
+    }
+    a {
+      color: white;
     }
   }
   .service-rightpane {
