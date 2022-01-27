@@ -1,4 +1,7 @@
 .homepage {
+  font-family: Arial, sans-serif;
+  color: white;
+  border: 1px solid transparent;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -11,46 +14,95 @@
 }
 
 .homepage .header a {
+  font-size: smaller;
+  color: white;
   text-decoration: none;
   margin-right: 1em;
 }
 
 .homepage .middle1 {
-  padding-top: 5%;
+  background-color: #063970;
+  opacity: 0.7;
+  border: 1px solid transparent;
+  padding: none;
   display: inline-block;
 }
 
 .homepage .middle1 img {
-  margin-right: 2em;
+  margin-top: -1.2em;
+  margin-bottom: -2.5em;
+  margin-left: 2em;
+  margin-right: 5em;
   float: left;
-  width: 20%;
+  width: 15%;
 }
 
 .homepage .middle1 a {
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
   text-decoration: none;
   margin-right: 1em;
 }
 
 .homepage .middle2 {
-  margin-top: 2%;
+  background-color: #063970;
+  opacity: 0.2;
+  border: 1px solid black;
 }
 
 .homepage .middle2 h1 {
+  font-size: 2em;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
   text-transform: uppercase;
-  color: white;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
+}
+
+.homepage .container {
+  border: 1px solid transparent;
+  margin-bottom: 2em;
+}
+
+.homepage .container img {
+  width: 100%;
+}
+
+.homepage .container .column {
+  background-color: #063970;
+  opacity: 0.7;
+  float: left;
+  width: 31%;
+  padding: 0 10px;
 }
 
 .homepage .container .leftpane {
-  width: 30%;
+  padding: 16px;
+  text-align: left;
 }
 
 .homepage .container .middlepane {
-  width: 30%;
+  padding: 16px;
+  text-align: left;
 }
 
 .homepage .container .rightpane {
-  width: 30%;
+  padding: 16px;
+  text-align: left;
+}
+
+.homepage .container a {
+  color: white;
+}
+
+.homepage .footer {
+  margin-top: 2em;
+  padding-left: 1em;
+}
+
+.homepage .footer a {
+  margin-right: 2em;
+  color: white;
 }
 
 .service-middle1 a {
