@@ -4,6 +4,7 @@
   border: 1px solid transparent;
   //background: blue; //
   //opacity: 0.3; //
+  //margin-top: 0;
   margin-left: 220px;
   margin-right: 220px;
   .header {
@@ -15,7 +16,6 @@
       font-size: smaller;
       color: white;
       text-decoration: none;
-      margin-right: 1em;
     }
   }
   .middle1 {
@@ -23,7 +23,7 @@
     opacity: 0.7;
     border: 1px solid transparent;
     //padding-top: 5%;
-    padding: none;
+    padding: none; //none initially
     display: inline-block; //
     img {
       margin-top: -1.2em;
@@ -39,7 +39,9 @@
       text-transform: uppercase;
       color: white;
       text-decoration: none;
-      margin-right: 1em;
+      margin-right: 0.5em;
+      //margin: 0.5em, 0.5em, 0, 0.5em;
+      //margin-top: 100em; //
     }
   }
   .middle2 {

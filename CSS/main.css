@@ -17,7 +17,6 @@
   font-size: smaller;
   color: white;
   text-decoration: none;
-  margin-right: 1em;
 }
 
 .homepage .middle1 {
@@ -42,7 +41,7 @@
   text-transform: uppercase;
   color: white;
   text-decoration: none;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .homepage .middle2 {
