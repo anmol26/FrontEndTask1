@@ -1,5 +1,6 @@
 .homepage {
-  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
   color: white;
   border: 1px solid transparent;
   margin-left: 220px;
@@ -10,6 +11,7 @@
   background-color: #042242;
   opacity: 0.5;
   float: right;
+  padding-bottom: 0.1em;
   margin-bottom: 2%;
 }
 
@@ -20,16 +22,19 @@
 }
 
 .homepage .middle1 {
-  background-color: #042242;
+  background-color: #02101f;
   opacity: 0.7;
   border: 1px solid transparent;
+  padding-top: 1%;
+  padding-bottom: 1%;
   padding: none;
   display: inline-block;
+  width: 100%;
 }
 
 .homepage .middle1 img {
-  margin-top: -1.2em;
-  margin-bottom: -2em;
+  margin-top: -2em;
+  margin-bottom: -2.4em;
   margin-left: 2em;
   margin-right: 5em;
   float: left;
@@ -45,12 +50,14 @@
 }
 
 .homepage .middle2 {
-  background: rgba(198, 205, 218, 0.1);
+  background: rgba(19, 26, 39, 0.1);
   border: 1px solid transparent;
+  width: 100%;
 }
 
 .homepage .middle2 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  font-weight: lighter;
   padding-top: 0.2em;
   padding-left: 0.5em;
   text-transform: uppercase;
@@ -61,6 +68,7 @@
   border: 1px solid transparent;
   margin-bottom: 2em;
   font-size: small;
+  width: 100.5%;
 }
 
 .homepage .container img {
@@ -68,7 +76,7 @@
 }
 
 .homepage .container .column {
-  background-color: #052d57;
+  background-color: #02101f;
   opacity: 0.7;
   float: left;
   width: 31%;
@@ -97,9 +105,10 @@
 .homepage .footer {
   margin-top: 32em;
   background-color: #063970;
-  opacity: 0.8;
+  opacity: 0.7;
   border: 1px solid transparent;
   font-size: small;
+  width: 100.5%;
 }
 
 .homepage .footer p {
@@ -110,38 +119,41 @@
   color: white;
 }
 
-.service-middle1 a {
-  text-decoration: none;
+.service-container {
+  border: 1px solid transparent;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: small;
+  width: 100%;
+  background-color: #02101f;
+  opacity: 0.7;
 }
 
 .service-container .column {
-  margin-bottom: 2em;
-  background-color: #063970;
-  opacity: 0.7;
-  float: left;
-  width: 30%;
-  padding: 0 10px;
+  width: 50%;
 }
 
 .service-container .service-leftpane {
-  margin-top: 2em;
   width: 30%;
+  padding: 2em;
 }
 
 .service-container .service-leftpane img {
   width: 100%;
-}
-
-.service-container .service-leftpane ul {
-  list-style-type: none;
+  margin-bottom: 2em;
 }
 
 .service-container .service-leftpane a {
   color: white;
 }
 
+.service-container .service-leftpane .line {
+  width: 100%;
+  border-top: 1px solid #393a31;
+}
+
 .service-container .service-rightpane {
-  width: 30%;
+  float: right;
 }
 
 .service-container .service-rightpane h1 {

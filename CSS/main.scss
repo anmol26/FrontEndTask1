@@ -1,16 +1,15 @@
 .homepage {
-  font-family: Arial, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
   color: white;
   border: 1px solid transparent;
-  //background: blue; //
-  //opacity: 0.3; //
-  //margin-top: 0;
   margin-left: 220px;
   margin-right: 220px;
   .header {
     background-color: rgb(4, 34, 66);
     opacity: 0.5;
     float: right;
+    padding-bottom: 0.1em;
     margin-bottom: 2%;
     a {
       font-size: smaller;
@@ -19,15 +18,17 @@
     }
   }
   .middle1 {
-    background-color: rgb(4, 34, 66);
+    background-color: rgb(2, 16, 31);
     opacity: 0.7;
     border: 1px solid transparent;
-    //padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     padding: none; //none initially
     display: inline-block; //
+    width: 100%;
     img {
-      margin-top: -1.2em;
-      margin-bottom: -2em;
+      margin-top: -2em;
+      margin-bottom: -2.4em;
       //padding-top: -1;
       margin-left: 2em;
       margin-right: 5em;
@@ -45,10 +46,12 @@
     }
   }
   .middle2 {
-    background: rgba(198, 205, 218, 0.1);
+    background: rgba(19, 26, 39, 0.1);
     border: 1px solid transparent;
+    width: 100%;
     h1 {
-      font-size: 2em;
+      font-size: 2.5em;
+      font-weight: lighter;
       padding-top: 0.2em;
       padding-left: 0.5em;
       text-transform: uppercase;
@@ -59,12 +62,13 @@
     border: 1px solid transparent; //
     margin-bottom: 2em;
     font-size: small;
+    width: 100.5%;
     img {
       width: 100%;
     }
     .column {
       //margin-bottom: 2em;
-      background-color: rgb(5, 45, 87);
+      background-color: rgb(2, 16, 31);
       opacity: 0.7;
       float: left;
       width: 31%;
@@ -92,9 +96,11 @@
   .footer {
     margin-top: 32em;
     background-color: rgb(6, 57, 112);
-    opacity: 0.8;
+    opacity: 0.7;
     border: 1px solid transparent;
     font-size: small;
+    width: 100.5%;
+
     p {
       text-align: center;
     }
@@ -103,36 +109,38 @@
     }
   }
 }
-.service-middle1 {
-  a {
-    text-decoration: none;
-    //margin-right: 1em;
-  }
-}
 .service-container {
+  border: 1px solid transparent; //
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: small;
+  width: 100%;
+  background-color: rgb(2, 16, 31);
+  opacity: 0.7;
   .column {
-    margin-bottom: 2em;
-    background-color: rgb(6, 57, 112);
-    opacity: 0.7;
-    float: left;
-    width: 30%;
-    padding: 0 10px;
+    //margin-bottom: 2em;
+    //float: left;
+    width: 50%;
+    //padding: 0 10px;
   }
   .service-leftpane {
-    margin-top: 2em;
     width: 30%;
+    padding: 2em;
     img {
       width: 100%;
-    }
-    ul {
-      list-style-type: none;
+      margin-bottom: 2em;
     }
     a {
       color: white;
     }
+    .line {
+      width: 100%;
+      border-top: 1px solid rgb(57, 58, 49);
+    }
   }
   .service-rightpane {
-    width: 30%;
+    //width: 70%;
+    float: right;
     h1 {
       text-transform: uppercase;
       color: white;
