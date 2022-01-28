@@ -154,7 +154,7 @@
 }
 
 .service-container .service-rightpane {
-  width: 64.1%;
+  width: 64.16%;
   background-color: #02101f;
   opacity: 0.7;
   float: right;
@@ -173,7 +173,7 @@
 
 .service-container .service-rightpane .service-lowerpane {
   background-color: #02101f;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .service-container .service-rightpane .service-lowerpane span {
