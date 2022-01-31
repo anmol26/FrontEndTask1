@@ -25,13 +25,12 @@
     border: 1px solid transparent;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding: none; //none initially
-    display: inline-block; //
+    padding: none;
+    display: inline-block;
     width: 100%;
     img {
       margin-top: -2em;
       margin-bottom: -2.4em;
-      //padding-top: -1;
       margin-left: 2em;
       margin-right: 5em;
       float: left;
@@ -45,6 +44,12 @@
       margin-right: 0.5em;
       //margin: 0.5em, 0.5em, 0, 0.5em;
       //margin-top: 100em; //
+    }
+    .left-middle1 {
+      float: left; //
+    }
+    .right-middle1 {
+      float: right; //
     }
   }
   .middle2 {
