@@ -3,8 +3,8 @@
   font-style: normal;
   color: white;
   border: 1px solid transparent;
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 13.75em; //220px;
+  margin-right: 13.75em; //220px;
   .header {
     background-color: rgb(4, 34, 66);
     opacity: 0.5;
@@ -25,16 +25,16 @@
     border: 1px solid transparent;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding: none;
+    //padding: none;
     display: inline-block;
     width: 100%;
     img {
       margin-top: -2em;
-      margin-bottom: -2.4em;
+      margin-bottom: -2.7em;
       margin-left: 2em;
-      margin-right: 5em;
+      margin-right: 3em;
       float: left;
-      width: 15%;
+      width: 45%;
     }
     a {
       vertical-align: middle;
@@ -49,7 +49,8 @@
       float: left; //
     }
     .right-middle1 {
-      float: right; //
+      //float: right; //
+      vertical-align: middle;
     }
   }
   .middle2 {
@@ -69,7 +70,8 @@
     border: 1px solid transparent; //
     margin-bottom: 2em;
     font-size: small;
-    width: 100.5%;
+    width: 100%;
+    //box-sizing: border-box;
     img {
       width: 100%;
     }
@@ -78,8 +80,8 @@
       background-color: rgb(2, 16, 31);
       opacity: 0.7;
       float: left;
-      width: 31%;
-      padding: 0 10px;
+      width: 33.33%;
+      //padding: 0 10px;
     }
     .leftpane {
       padding: 16px;
@@ -89,6 +91,9 @@
     .middlepane {
       padding: 16px;
       text-align: left;
+      img {
+        width: 97%;
+      }
       //width: 30%;
     }
     .rightpane {
@@ -101,12 +106,13 @@
     }
   }
   .footer {
+    //position: fixed bottom;
     margin-top: 32em;
     background-color: rgb(6, 57, 112);
     opacity: 0.7;
     border: 1px solid transparent;
     font-size: small;
-    width: 100.5%;
+    width: 100%;
 
     p {
       text-align: center;
@@ -116,6 +122,7 @@
     }
   }
 }
+
 .service-container {
   border: 1px solid transparent; //
   margin-top: 2em;
@@ -196,4 +203,51 @@ a:hover {
 a.active {
   background-color: #04aa6d;
   color: white;
+}
+
+@media only screen and (max-width: 1074px) {
+  /* For mobile phones: */
+  .homepage {
+    margin: 0;
+    width: 100%;
+    .left-middle1 {
+      display: none;
+    }
+    .right-middle1 {
+      width: 100%;
+      text-align: center;
+      float: left;
+      display: block;
+    }
+    .middle2 {
+      background: rgba(19, 26, 39, 0.1);
+      border: 1px solid transparent;
+      width: 100%;
+      padding: none;
+      h1 {
+        font-size: 2em;
+        font-weight: lighter;
+        padding-top: 0.2em;
+        padding-left: 0.5em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+    }
+    .footer {
+      //position: fixed bottom;
+      margin-top: 50em;
+      background-color: rgb(6, 57, 112);
+      opacity: 0.7;
+      border: 1px solid transparent;
+      font-size: small;
+      width: 100%;
+
+      p {
+        text-align: center;
+      }
+      a {
+        color: white;
+      }
+    }
+  }
 }
