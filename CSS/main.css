@@ -29,18 +29,17 @@
   border: 1px solid transparent;
   padding-top: 1%;
   padding-bottom: 1%;
-  padding: none;
   display: inline-block;
   width: 100%;
 }
 
 .homepage .middle1 img {
   margin-top: -2em;
-  margin-bottom: -2.4em;
+  margin-bottom: -2.7em;
   margin-left: 2em;
   margin-right: 5em;
   float: left;
-  width: 15%;
+  width: 45%;
 }
 
 .homepage .middle1 a {
@@ -49,6 +48,14 @@
   color: white;
   text-decoration: none;
   margin-right: 0.5em;
+}
+
+.homepage .middle1 .left-middle1 {
+  float: left;
+}
+
+.homepage .middle1 .right-middle1 {
+  vertical-align: middle;
 }
 
 .homepage .middle2 {
@@ -70,7 +77,7 @@
   border: 1px solid transparent;
   margin-bottom: 2em;
   font-size: small;
-  width: 100.5%;
+  width: 100%;
 }
 
 .homepage .container img {
@@ -81,8 +88,7 @@
   background-color: #02101f;
   opacity: 0.7;
   float: left;
-  width: 31%;
-  padding: 0 10px;
+  width: 33.33%;
 }
 
 .homepage .container .leftpane {
