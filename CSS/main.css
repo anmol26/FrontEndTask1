@@ -217,4 +217,14 @@ a.active {
   background-color: #04aa6d;
   color: white;
 }
+
+.card {
+  background-color: #02101f;
+  opacity: 0.8;
+}
+
+.card p {
+  color: white;
+  font-size: medium;
+}
 /*# sourceMappingURL=main.css.map */

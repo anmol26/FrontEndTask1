@@ -185,6 +185,8 @@
     color: white;
   }
 }
+
+///////////////////////////////////////////////////
 a:hover {
   background-color: #ddd;
   color: black;
@@ -192,4 +194,13 @@ a:hover {
 a.active {
   background-color: #04aa6d;
   color: white;
+}
+
+.card {
+  background-color: rgb(2, 16, 31);
+  opacity: 0.8;
+  p {
+    color: white;
+    font-size: medium;
+  }
 }
